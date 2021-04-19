@@ -79,7 +79,7 @@ function M.Reload()
     unload_modules()
 
     -- Source init file
-    cmd('luafile $MYVIMRC')
+    cmd('source $MYVIMRC')
 
     -- Reload start plugins
     reload_start_plugins()
